@@ -1,0 +1,243 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+main{
+    margin: 0;
+    padding: 0;
+    background-repeat: no-repeat;
+    background-size: 100%;
+    height: 130vh;
+    background-image: linear-gradient(to left, #3a28b0, #5435b8,#673ebd,#9654c9,#af61d0);
+}
+/* This is first section  */
+#first{
+    display: flex;
+    flex-direction: row;
+    position: relative;
+}
+/* this is 1st div css  */
+.item1{
+    position: absolute;
+    top: 50px;
+    left: 250px;
+    width: 200px;
+    height: 200px;
+    background-color: #1ABC9C;
+}
+.box1{
+    margin: 60px;
+}
+/* this is 2nd div css  */
+.item2{
+    position: absolute;
+    top: 50px;
+    left: 452px;
+    width: 200px;
+    height: 200px;
+    background-color: #34495E;
+}
+.box2{
+    margin: 65px;
+}
+/* this is 3rd div css  */
+.item3{
+    position: absolute;
+    top: 50px;
+    left: 654px;
+    width: 200px;
+    height: 200px;
+    background-color: #F39C12;
+}
+.box3{
+    margin: 40px;
+}
+
+/* this is 4th div css  */
+.item4{
+    position: absolute;
+    top: 50px;
+    left: 855px;
+    width: 200px;
+    height: 200px;
+    background-color: #9B59B6;
+}
+.box4{
+    margin: 70px 30px;
+}
+/* this is second section  */
+#second{
+    display: flex;
+    flex-direction: row;
+    position: relative;
+}
+
+/* this is 5th div css  */
+.item5{
+    position: absolute;
+    top: 249px;
+    left: 250px;
+    width: 200px;
+    height: 200px;
+    background-color: #3498DB;
+}
+.box5{
+    display: flex;
+    justify-content: center;
+}
+.spinner{
+    height: 60px;
+    width: 60px;
+    margin: 55px;
+    border: 2px solid #b6b4b4e8;
+    border-left-color: #ffffff;
+    border-radius: 50%;
+    animation: spin 1s linear infinite;
+}
+@keyframes spin{
+    to {
+        transform: rotate(360deg);
+    }
+}
+
+/* this is 6th div css  */
+.item6{
+    position: absolute;
+    top: 249px;
+    left: 453px;
+    width: 200px;
+    height: 200px;
+    background-color: #E74C3C;;
+}
+.box6{
+    margin: 90px 40px;
+}
+/* this is 7th div css  */
+.item7{
+    position: absolute;
+    top: 249px;
+    left: 652px;
+    width: 200px;
+    height: 200px;
+    background-color: #2ecc71;
+}
+.box7{
+    margin: 80px 70px;
+}
+.item8{
+    position: absolute;
+    top: 249px;
+    left: 855px;
+    width: 200px;
+    height: 200px;
+    background-color: #2C3E50;
+}
+.box8{
+    margin: 65px;
+}
+/* this is 3rd section  */
+#third{
+    display: flex;
+    flex-direction: row;
+    position: relative;
+}
+
+/* this is 9th div css  */
+.item9{
+    position: absolute;
+    top: 448px;
+    left: 250px;
+    width: 200px;
+    height: 200px;
+    background-color: #F1C40F;
+}
+.box9{
+    margin: 70px;
+}
+/* this is 10th div css  */
+
+.item10{
+    position: absolute;
+    top: 448px;
+    left: 453px;
+    width: 200px;
+    height: 200px;
+    background-color: #8E44AD;
+}
+.box10{
+    display: flex;
+    justify-content: center;
+}
+.half-spin{
+    height: 60px;
+    width: 60px;
+    margin: 55px;
+    border: 2px solid #8e44ad;
+    border-left-color: #ffffff;
+    border-radius: 50%;
+    animation: spin2 1s linear infinite;
+}
+@keyframes spin2{
+    to {
+        transform: rotate(360deg);
+    }
+}
+
+/* this is 11th div css  */
+.item11{
+    position: absolute;
+    top: 448px;
+    left: 652px;
+    width: 200px;
+    height: 200px;
+    background-color: #2980B9;
+}
+.box11{
+    margin: 70px;
+}
+
+/* this is 12th div css  */
+.item12{
+    position: absolute;
+    top: 448px;
+    left: 855px;
+    width: 200px;
+    height: 200px;
+    background-color: #E74C3C;
+}
+.box12{
+    margin: 70px;
+}
+.fourth{
+    position: relative;
+}
+.btns{
+    position: absolute;
+    top: 680px;
+    left: 503px;
+}
+i{
+    margin: 10px;
+    font-size: 20px;
+    margin-left: -11px;
+    color: white;
+}
+button{
+    background: none;
+    border: 2px solid white;
+    color: rgb(218, 212, 212);
+    padding: 10px 55px;
+}
+button:hover{
+    cursor: pointer;
+}
+p{
+    position: absolute;
+    top: 748px;
+    left: 600px;
+    color: white;
+}
+a{
+    color: white;
+
+}
